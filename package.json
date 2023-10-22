@@ -1,0 +1,36 @@
+{
+  "name": "widescreen_tweaker",
+  "version": "0.0.1",
+  "description": "Specially designed browser extension crafted to enhance the user experience on ultra-wide monitors.",
+  "scripts": {
+    "dev": "webextension-toolbox dev chrome",
+    "build": "webextension-toolbox build chrome",
+    "lint": "eslint 'app/**/*.{ts,tsx,js,jsx}'",
+    "format": "prettier --write 'app/**/*.{ts,tsx,js,jsx,json,css,scss,md}'"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "@types/chrome": "^0.0.248",
+    "@types/styled-components": "^5.1.29",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "webextension-toolbox": "^4.0.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.8.7",
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "glob-parent": "^6.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.1.0",
+    "webpack": "^5.89.0"
+  }
+}

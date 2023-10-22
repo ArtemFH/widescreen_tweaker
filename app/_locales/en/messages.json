@@ -1,0 +1,18 @@
+{
+  "appName": {
+    "message": "widescreen_tweaker",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "WideTweaker",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "Specially designed browser extension crafted to enhance the user experience on ultra-wide monitors.",
+    "description": "The description of the application"
+  },
+  "browserActionTitle": {
+    "message": "widescreen_tweaker",
+    "description": "The title of the browser action button"
+  }
+}
