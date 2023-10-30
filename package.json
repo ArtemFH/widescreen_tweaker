@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Specially designed browser extension crafted to enhance the user experience on ultra-wide monitors.",
   "scripts": {
+    "tsc": "tsc --watch",
     "dev": "webextension-toolbox dev chrome",
     "build": "webextension-toolbox build chrome",
     "lint": "eslint 'app/**/*.{ts,tsx,js,jsx}'",

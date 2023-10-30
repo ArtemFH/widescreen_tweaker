@@ -1,9 +1,12 @@
-chrome.runtime.onInstalled.addListener(details => {
-  console.log('previousVersion', details.previousVersion);
+chrome.contextMenus.create({
+  id: 'fixYoutube',
+  title: 'Fix',
+  contexts: ['page'],
 });
 
-chrome.browserAction.setBadgeText({
-  text: `'Allo`,
+chrome.contextMenus.onClicked.addListener((info, tab) => {
+  switch (info.menuItemId) {
+    case 'fixYoutube':
+      chrome.tabs.sendMessage(tab.id, { action: 'addClass' });
+  }
 });
-
-console.log(`'Allo 'Allo! Event Page for Browser Action`);
